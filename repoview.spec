@@ -1,5 +1,5 @@
 %define name	repoview
-%define version 0.6.0
+%define version 0.6.1
 %define release %mkrel 1
 
 Name:		%{name}
@@ -9,12 +9,12 @@ Summary:        Creates a set of static HTML pages in a yum repository
 Group:          Networking/WWW
 License:        GPL
 URL:            http://linux.duke.edu/projects/mini/%{name}
-Source0:        http://linux.duke.edu/projects/mini/%{name}/download/%{name}-%{version}.tar.bz2
-BuildRoot:      %{_tmppath}/%{name}-%{version}
-BuildArch:      noarch
+Source0:        http://linux.duke.edu/projects/mini/%{name}/download/%{name}-%{version}.tar.gz
 Requires:       python >= 2.2
 Requires:       python-kid >= 0.6.3
 Requires:       python-elementtree
+BuildArch:      noarch
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 RepoView creates a set of static HTML pages in a yum repository for easy
