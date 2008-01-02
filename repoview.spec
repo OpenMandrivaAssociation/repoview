@@ -14,6 +14,7 @@ Requires:       python >= 2.2
 Requires:       python-kid >= 0.6.3
 Requires:       python-elementtree
 BuildArch:      noarch
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description
 RepoView creates a set of static HTML pages in a yum repository for easy
