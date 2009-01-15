@@ -1,6 +1,6 @@
 %define name	repoview
-%define version 0.6.1
-%define release %mkrel 4
+%define version 0.6.2
+%define release %mkrel 1
 
 Name:		%{name}
 Version:	%{version}
