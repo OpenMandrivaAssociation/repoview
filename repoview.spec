@@ -47,3 +47,54 @@ rm -rf %{buildroot}
 %{_datadir}/%{name}
 %{_bindir}/*
 %{_mandir}/man*/*
+
+
+%changelog
+* Tue Sep 15 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.6.2-2mdv2010.0
++ Revision: 442687
+- rebuild
+
+* Thu Jan 15 2009 Jérôme Soyer <saispo@mandriva.org> 0.6.2-1mdv2009.1
++ Revision: 329838
+- New upstream release
+
+* Fri Aug 01 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.6.1-4mdv2009.0
++ Revision: 260233
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.6.1-3mdv2009.0
++ Revision: 248374
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue Dec 04 2007 Guillaume Rousse <guillomovitch@mandriva.org> 0.6.1-1mdv2008.1
++ Revision: 115425
+- new version
+
+* Wed Sep 05 2007 Jérôme Soyer <saispo@mandriva.org> 0.6.0-1mdv2008.0
++ Revision: 79840
+- New release 0.6.0
+- Import repoview
+
+
+
+* Sun Oct 09 2005 Michael Scherer <misc@mandriva.org> 0.4.1-1mdk
+- New release 0.4.1
+
+* Sat Oct 08 2005 Michael Scherer <misc@mandriva.org> 0.4-1mdk
+- New release 0.4
+
+* Sat Jul 16 2005 Guillaume Rousse <guillomovitch@mandriva.org> 0.3- 4 
+- properly quote variable
+
+* Sat Jul 16 2005 Guillaume Rousse <guillomovitch@mandriva.org> 0.3-3mdk 
+- don't mess with software internal version
+
+* Wed Jul 13 2005 Guillaume Rousse <guillomovitch@mandriva.org> 0.3-2mdk 
+- used mkrel
+
+* Tue Jul 12 2005 Guillaume Rousse <guillomovitch@mandriva.org> 0.3-1mdk 
+- first mdk release
