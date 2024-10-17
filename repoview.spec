@@ -8,7 +8,7 @@ Release:	%{release}
 Summary:        Creates a set of static HTML pages in a yum repository
 Group:          Networking/WWW
 License:        GPL
-URL:            http://linux.duke.edu/projects/mini/%{name}
+URL:            https://linux.duke.edu/projects/mini/%{name}
 Source0:        http://linux.duke.edu/projects/mini/%{name}/download/%{name}-%{version}.tar.gz
 Requires:       python >= 2.2
 Requires:       python-kid >= 0.6.3
